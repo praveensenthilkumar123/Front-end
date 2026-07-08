@@ -1,0 +1,118 @@
+.form-container {
+  max-width: 650px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2563eb;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form-container button:hover {
+  background: #1d4ed8;
+}
+
+/* Employee Table */
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background: white;
+}
+
+.employee-table th {
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+}
+
+.employee-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.employee-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.employee-table tr:hover {
+  background: #eef4ff;
+}
+
+.edit-btn {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #15803d;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+@media (max-width:768px) {
+
+  .form-container {
+    width: 95%;
+  }
+
+  .employee-table {
+    font-size: 14px;
+  }
+
+  .employee-table th,
+  .employee-table td {
+    padding: 8px;
+  }
+}

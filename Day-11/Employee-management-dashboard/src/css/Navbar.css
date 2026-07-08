@@ -1,0 +1,27 @@
+.navbar {
+  height: 70px;
+  background: #2563eb;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+@media (max-width:768px) {
+  .navbar {
+    font-size: 24px;
+    height: 60px;
+  }
+
+  .navbar h1 {
+    font-size: 26px;
+  }
+}
