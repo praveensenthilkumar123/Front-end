@@ -1,0 +1,18 @@
+.attendance-page {
+  padding: 20px;
+}
+
+.status-present {
+  color: green;
+  font-weight: bold;
+}
+
+.status-absent {
+  color: red;
+  font-weight: bold;
+}
+
+.status-leave {
+  color: orange;
+  font-weight: bold;
+}

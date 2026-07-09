@@ -1,0 +1,15 @@
+.payroll-container {
+  padding: 20px;
+}
+
+.salary-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.1);
+}
+
+.salary-card h2 {
+  color: #2563eb;
+}

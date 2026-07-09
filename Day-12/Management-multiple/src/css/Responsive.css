@@ -1,0 +1,31 @@
+@media(max-width:768px){
+
+.sidebar{
+    width:70px;
+}
+
+.main-content{
+    margin-left:70px;
+}
+
+.navbar{
+    padding:15px;
+}
+
+.dashboard-cards{
+    grid-template-columns:1fr;
+}
+
+.employee-grid{
+    grid-template-columns:1fr;
+}
+
+table{
+    font-size:14px;
+}
+
+button{
+    width:100%;
+}
+
+}
